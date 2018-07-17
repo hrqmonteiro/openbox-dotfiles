@@ -37,6 +37,10 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 **Explanation**: This works as the same as above, but instead of just running an image, the top bar reads the CMUS or Ncmpcpp song that's playing and shows the cover.png file that's inside the music folder on the x,y space you choose. You'll find this script on (/scripts/popups/cover.sh), it is made by NerdyPepper as i said before, thanks to him!  
 **The rest of modules running:** mpd duration of the song, mpd artist and mpd song year. All of my polybars config you find on (/.config/polybar/config)  
 
+## Video demonstration:  
+![video-bars](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/VengefulSpanishGoldfish-max-14mb.gif)  
+**Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish)
+
 ## Ncmpcpp and Glava visualization:  
 ![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-172041_1920x1080_scrot.png)  
 **Running:**: ncmpcpp on urxvt terminal, with config to show the artwork, and the visualizer below the song info on the bottom right of the screen is (GLava)(https://github.com/wacossusca34/glava) just configure it to the dock mode so it can float on the screen and choose a x,y position to fit for you. It works with Cmus, too.  
