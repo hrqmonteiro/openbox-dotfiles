@@ -1,0 +1,67 @@
+! ------------------------------------------------------------------------------
+!  Colors
+! ------------------------------------------------------------------------------
+
+#define base00 [70]#000000
+#define base01 #2e3c43
+#define base02 #314549
+#define base03 #546e7a
+#define base04 #b2ccd6
+#define base05 #FFF
+#define base06 #eeffff
+#define base07 #ffffff
+#define base08 #f07178
+#define base09 #f78c6c
+#define base0A #ffcb6b
+#define base0B #c3e88d
+#define base0C #bb333f
+#define base0D #82aaff
+#define base0E #c792ea
+#define base0F #ff5370
+
+! ------------------------------------------------------------------------------
+!  URxvt
+! ------------------------------------------------------------------------------
+
+*foreground:   base05
+*background:  [70]#000000
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base05
+
+*color8:       base03
+*color9:       base09
+*color10:      base01
+*color11:      base02
+*color12:      base04
+*color13:      base06
+*color14:      base0F
+*color15:      base07
+
+
+URxvt.cursorBlink : 0
+URxvt.font        : xft:Roboto:style=Bold:size=8
+URxvt.italicFont  : xft:Roboto Term:style=italic:size=8
+
+URxvt.lineSpace           : 0
+URxvt.letterSpace         : -2
+URxvt.scrollBar           : false
+URxvt.internalBorder      : 0
+URxvt.cursorUnderline     : false
+URxvt.geometry            : 70x35
+URxvt.thickness           : 5
+URxvt.titleBar            : false
+URxvt.intensityStyles     : false
+URxvt.depth:   32
+
+
+URxvt.perl-ext-common : default,matcher
+URxvt.url-launcher    : firefox
+URxvt.matcher.button  : 1
