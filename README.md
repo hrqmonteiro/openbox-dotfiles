@@ -1,6 +1,6 @@
 ## INTRODUCTION
 
-Hello there, here are my dotfiles for my configuration as some have asked on Unixporn. My config consists of:  
+Hello there, here are my dotfiles for my configuration as some have asked for it on Unixporn. My config consists of:  
 
 **OS:** Arch  
 **Wm:** Openbox  
