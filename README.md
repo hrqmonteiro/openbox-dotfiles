@@ -2,7 +2,7 @@
 
 Hello there, here are my dotfiles for my configuration as some have asked on Unixporn. My config consists of:  
 
-**OS:** Arch
+**OS:** Arch  
 **Wm:** Openbox  
 **Panel**: tint2  
 **Clock**: Conky  
