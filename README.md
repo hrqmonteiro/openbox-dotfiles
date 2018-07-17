@@ -4,11 +4,11 @@ Hello there, here are my dotfiles for my configuration as some have asked for it
 
 **OS:** Arch  
 **Wm:** Openbox  
-**Panel**: Tint2  
-**Clock**: Conky  
-**Bars:**: Polybar  
-**Menu:**: Rofi  
-**Compositor**: Compton  
+**Panel:** Tint2  
+**Clock:** Conky  
+**Bars:** Polybar  
+**Menu:** Rofi  
+**Compositor:** Compton  
 
 ## Preview:
 
@@ -39,7 +39,7 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 
 ## Video demonstration:  
 <a href="https://gfycat.com/VengefulSpanishGoldfish"><img src="https://thumbs.gfycat.com/VengefulSpanishGoldfish-size_restricted.gif" title ="video"/></a>  
-**Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish)
+**Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish) (the vokoscreen i used to record probably bugged and the video is blinking in some parts, but its just a problem with the video, not the scripts or anything in my setup D:)
 
 ## Ncmpcpp and Glava visualization:  
 ![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-172041_1920x1080_scrot.png)  
