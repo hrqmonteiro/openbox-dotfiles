@@ -29,7 +29,7 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 
 ## Hiding bars:  
 ![bar](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-163637_1920x1080_scrot.png)  
-**Explanation**: this is a script based on one from [NerdyPepper](https://github.com/nerdypepper/dotfiles) (you find the original in his dotfiles if you search for it), i just edited to match my setup. Its a script, located on (scripts/hidebars.sh), what is does is hide some set of polybars with the left button and show it with the right button, and i configured it on the Button on tint2, just create a button on tint2, set your image (The arch logo in my case) and  to the left and right click action, set these: : exec ~/path/to/script and is done!.  
+**Explanation**: this is a script based on one from [NerdyPepper](https://github.com/nerdypepper/dotfiles) (you find the original in his dotfiles if you search for it), i just edited to match my setup. Its a script, located on (scripts/hidebars.sh), what is does is hide some set of polybars with the left button and show it with the right button, and i configured it on the Button on tint2, just create a button on tint2, set your image (The arch logo icon in my case) and  to the left and right click action, set these: : exec ~/path/to/script and is done!.  
 **Running modules:**: xworkspaces (for moving around the Openbox desktops), CPU and RAM Monitor, Battery, PulseAudio, Wlan and on the topbar is an script just for showing this image :D (you'll find this one on /scripts/popups/cover2.sh) [is also based on one script from NerdyPepper, which i'll explain below]  
 
 ## Hiding bars (right):  
@@ -43,7 +43,7 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 
 ## Ncmpcpp and Glava visualization:  
 ![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-172041_1920x1080_scrot.png)  
-**Running:**: ncmpcpp on urxvt terminal, with config to show the artwork, and the visualizer below the song info on the bottom right of the screen is (GLava)(https://github.com/wacossusca34/glava) just configure it to the dock mode so it can float on the screen and choose a x,y position to fit for you. It works with Cmus, too.  
+**Running:**: ncmpcpp on urxvt terminal, with config to show the artwork, and the visualizer below the song info on the bottom right of the screen is [GLava](https://github.com/wacossusca34/glava) just configure it to the dock mode so it can float on the screen and choose a x,y position to fit for you. It works with Cmus, too.  
 
 ## Lockscreen:
 ![lockscreen](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-164357_1920x1080_scrot.png)  
