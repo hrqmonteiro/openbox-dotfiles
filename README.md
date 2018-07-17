@@ -38,7 +38,7 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 **The rest of modules running:** mpd duration of the song, mpd artist and mpd song year. All of my polybars config you find on (/.config/polybar/config)  
 
 ## Video demonstration:  
-![video-bars](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/VengefulSpanishGoldfish-max-14mb.gif)  
+![video-bars](https://thumbs.gfycat.com/VengefulSpanishGoldfish-max-14mb.gif)  
 **Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish)
 
 ## Ncmpcpp and Glava visualization:  
