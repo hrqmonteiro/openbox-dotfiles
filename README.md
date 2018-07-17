@@ -4,7 +4,7 @@ Hello there, here are my dotfiles for my configuration as some have asked for it
 
 **OS:** Arch  
 **Wm:** Openbox  
-**Panel**: tint2  
+**Panel**: Tint2  
 **Clock**: Conky  
 **Bars:**: Polybar  
 **Menu:**: Rofi  
@@ -14,14 +14,14 @@ Hello there, here are my dotfiles for my configuration as some have asked for it
 
 ## Home:   
 ![home](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-163501_1920x1080_scrot.png)  
-**Openbox theme**: both Openbox and GTK theme are called Reddish cause i made the first and the second is an edited version of Adapta-Eta theme but matching the red tone color i use, so i called them like this just for lack of a better name :D. The panel is tint2, you'll find mytheme on (.config/tint/tint2rc), i use it for some shortcuts for some apps i use, to launch the menu and as a taskbar/tray. The clock on the far right is one i made on Conky, you'll find it on (.conky/clock.conkyrc). The fonts i use on everything is Roboto, Roboto Condensed and Roboto Bold. And for the icon fonts i use Siji. The blur effects i achieve with Compton, you'll find my config on (/.config/compton.conf). Notifications are Dunst, you find the config too, in (.config/dunst/dunstrc)  
+**Openbox theme**: both Openbox and GTK theme are called Reddish cause i made the first and the second is an edited version of Adapta-Eta theme but matching the red tone color i use, so i called them like this just for lack of a better name :D. The panel is tint2, you'll find mytheme on (.config/tint/tint2rc), i use it for some shortcuts for some apps i use, to launch the menu and as a taskbar/tray. The clock on the far right is one i made on Conky, you'll find it on (.conky/clock.conkyrc). The fonts i use on everything is Roboto, Roboto Condensed and Roboto Bold. And for the icon fonts i use Siji. The blur effects i achieve with Compton, you'll find my config on (/.config/compton.conf). Notifications are Dunst, you'll find the config too, in (.config/dunst/dunstrc)  
 
 **Running:** Neofetch and Openbox Menu.  
 
 ## Menu:  
 ![menu](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-163549_1920x1080_scrot.png)  
 **Rofi** based on the one from [Addy](https://github.com/addy-dclxvi) (actually IS THE ONE from Addy, i just edited the colors to match my black transparent/blurred color settings.  
-To run it copy the script (which is on /scripts/rofiapps) to somewhere and make a keybinding to it, in my case i created a button on tint2panel and the action just put this: exec /path/to/rofiapps. The collor settings you find on (/.config/rofi/config).  
+To run it copy the script (which is on /scripts/rofiapps) to somewhere and make a keybinding to it, in my case i created a button on tint2panel and the action just put this: exec /path/to/rofiapps. The color settings you find on (/.config/rofi/config).  
 
 ## GTK Theme:  
 ![gtk](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-163626_1920x1080_scrot.png)  
