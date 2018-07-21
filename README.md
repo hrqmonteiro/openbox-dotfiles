@@ -13,7 +13,7 @@ Hello there, here are my dotfiles for my configuration as some have asked for it
 ## Preview:
 
 ## Home:   
-![home](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-163501_1920x1080_scrot.png)  
+![home](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-21-185606_1920x1080_scrot.png)  
 **Openbox theme**: both Openbox and GTK theme are called Reddish cause i made the first and the second is an edited version of Adapta-Eta theme but matching the red tone color i use, so i called them like this just for lack of a better name :D. The panel is tint2, you'll find mytheme on (.config/tint/tint2rc), i use it for some shortcuts for some apps i use, to launch the menu and as a taskbar/tray. The clock on the far right is one i made on Conky, you'll find it on (.conky/clock.conkyrc). The fonts i use on everything is Roboto, Roboto Condensed and Roboto Bold. And for the icon fonts i use Siji. The blur effects i achieve with Compton, you'll find my config on (/.config/compton.conf). Notifications are Dunst, you'll find the config too, in (.config/dunst/dunstrc)  
 
 **Running:** Neofetch and Openbox Menu.  
@@ -42,8 +42,9 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 **Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish) (the vokoscreen i used to record probably bugged and the video is blinking in some parts, but its just a problem with the video, not the scripts or anything in my setup D:)
 
 ## Ncmpcpp and Glava visualization:  
-![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-21-185132_1920x1080_scrot.png)  
+![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-21-185513_1920x1080_scrot.png)  
 **Running:**: ncmpcpp on urxvt terminal, with config to show the artwork, and the visualizer below the song info on the bottom right of the screen is [GLava](https://github.com/wacossusca34/glava) just configure it to the dock mode so it can float on the screen and choose a x,y position to fit for you. It works with Cmus, too.  
+**Playing:** Blind Guardian - War of Wrath  
 
 ## Lockscreen:
 ![lockscreen](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-164357_1920x1080_scrot.png)  
