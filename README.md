@@ -42,7 +42,7 @@ To run it copy the script (which is on /scripts/rofiapps) to somewhere and make 
 **Gyfcatlink** to the full gif/video: [Link](https://gfycat.com/VengefulSpanishGoldfish) (the vokoscreen i used to record probably bugged and the video is blinking in some parts, but its just a problem with the video, not the scripts or anything in my setup D:)
 
 ## Ncmpcpp and Glava visualization:  
-![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-17-172041_1920x1080_scrot.png)  
+![ncmpcpp](https://raw.githubusercontent.com/hrqmonteiro/openbox-dotfiles/master/2018-07-21-185132_1920x1080_scrot.png)  
 **Running:**: ncmpcpp on urxvt terminal, with config to show the artwork, and the visualizer below the song info on the bottom right of the screen is [GLava](https://github.com/wacossusca34/glava) just configure it to the dock mode so it can float on the screen and choose a x,y position to fit for you. It works with Cmus, too.  
 
 ## Lockscreen:
