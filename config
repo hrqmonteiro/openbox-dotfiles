@@ -1,0 +1,873 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/jaagr/polybar
+;
+;   The README contains alot of information
+;
+;==========================================================
+
+[colors]
+background = #30343F
+background-alt = #444
+foreground = #000
+foreground-alt = #1C1C1C
+primary = #ffb52a
+secondary = #e60053
+alert = #bd2c40
+
+[bar/bottom]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 71
+;height = 138
+offset-x = 260
+offset-y = 11
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 0
+foreground = ${colors.foreground}
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 3
+padding-right = 3
+
+module-margin-left = 3
+module-margin-right = 3
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11;3"
+font-1 = "Font Awesome 5 Free:style=Solid:size=7;3"
+font-2 = "Font Awesome 5 Free:style=Regular:size=7;3"
+font-3 = "Font Awesome 5 Brands:size=7;3"
+
+modules-left = prev
+modules-center = mpd
+modules-right = next
+
+tray-position = hidden
+tray-padding = 2
+;tray-transparent = true
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/song]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 145
+;height = 100
+offset-x = 325
+offset-y = 8
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 0
+foreground = #494949
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = 
+modules-center = song
+modules-right = 
+
+font-0 = "Bebas Neue Bold:style=Regular:size=11"
+
+tray-position = hidden
+tray-padding = 2
+
+override-redirect = true
+
+[bar/nowplaying]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 100
+;height = 100
+offset-x = 345
+offset-y = 8
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 0
+foreground = #494949
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = nowplaying
+modules-center = 
+modules-right = 
+
+font-0 = "Bebas Neue Bold:style=Regular:size=11"
+font-1 = "Font Awesome 5 Free:style=Solid:size=11"
+font-2 = "Font Awesome 5 Free:style=Regular:size=11"
+font-3 = "Font Awesome 5 Brands:size=11"
+
+tray-position = hidden
+tray-padding = 2
+
+override-redirect = true
+
+[bar/fundo]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 340
+height = 101
+offset-x = 230
+offset-y = 50
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = #FFF
+foreground = #FFF
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = 
+modules-center = empty
+modules-right = 
+
+tray-position = hidden
+tray-padding = 2
+
+override-redirect = true
+
+[bar/direita]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 225
+height = 100
+offset-x = 1553
+offset-y = 50
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = #FFF
+foreground = #FFF
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = 
+modules-center = empty
+modules-right = 
+
+override-redirect = true
+
+[bar/bg2]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 1000
+height = 30
+offset-x = 345
+offset-y = 50
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 
+foreground = #4f4f4f
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 0
+module-margin-right = 2
+
+modules-left = album
+modules-center = 
+modules-right = 
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11"
+
+tray-position = hidden
+tray-padding = 2
+
+override-redirect = true
+
+[bar/weather]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 450
+height = 30
+offset-x = 1667
+offset-y = 110
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 
+foreground = #4f4f4f
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 0
+module-margin-right = 2
+
+modules-left = filesystem
+modules-center = 
+modules-right = 
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11"
+font-1 = "Scientifica:style=Regular:size=11"
+
+override-redirect = true
+
+[bar/bg3]
+;monitor = ${env:MONITOR:HDMI-1}
+;width = 
+height = 30
+offset-x = 345
+offset-y = 80
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 
+foreground = #4f4f4f
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = title
+modules-center = 
+modules-right = 
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11"
+
+tray-position = hidden
+tray-padding = 2
+
+override-redirect = true
+
+[bar/memory]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 190
+height = 30
+offset-x = 1667
+offset-y = 80
+radius = 0.0
+fixed-center = true
+bottom = true
+
+background = 
+foreground = #000
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = memory
+modules-center = 
+modules-right = 
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11"
+font-1 = "Scientifica:style=Regular:size=11"
+
+override-redirect = true
+
+[bar/bg4]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 800
+height = 30
+offset-x = 345
+offset-y = 110
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 
+foreground = #494949
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = artist
+modules-center = 
+modules-right = 
+
+tray-position = hidden
+tray-padding = 2
+
+font-0 = "Bebas Neue Bold:style=Regular:size=11"
+
+override-redirect = true
+
+[bar/cpu]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 203
+height = 30
+offset-x = 1667
+offset-y = 50
+radius = 0.0
+fixed-center = false
+bottom = true
+
+background = 
+foreground = #494949
+
+line-size = 1
+line-color = #f00
+
+border-size = 0
+border-color = #00000000
+
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 2
+module-margin-right = 2
+
+modules-left = cpu
+modules-center = 
+modules-right = 
+
+tray-position = hidden
+tray-padding = 2
+
+font-0 = "Bebas Neue Regular:style=Regular:size=11"
+
+override-redirect = true
+
+[module/empty]
+type = custom/text
+content = A
+
+[module/nowplaying]
+type = custom/text
+content = Now playing   
+content-foreground = #bb333f
+
+[module/prev]
+type = custom/text
+content = 
+content-foreground = #494949
+click-left = mpc prev & notify-send -i "/tmp/cover2.png" "$(mpc current -f %title%)" "$(mpc current -f %artist%) - $(mpc current -f %album%)"
+
+[module/next]
+type = custom/text
+content = 
+content-foreground = #494949
+click-left = mpc next & notify-send -i "/tmp/cover2.png" "$(mpc current -f %title%)" "$(mpc current -f %artist%) - $(mpc current -f %album%)"
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+format-mounted = SSD   <bar-used> <label-mounted>
+
+label-mounted = %percentage_used%%
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.foreground-alt}
+
+bar-used-indicator = "|"
+bar-used-indicator-foreground =#282bd2
+bar-used-width = 13
+bar-used-foreground-0 = #282bd2
+bar-used-foreground-1 = #282bd2
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-fill = "|"
+bar-used-empty = "|"
+bar-used-empty-foreground = #444444
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+label-mode-padding = 2
+label-mode-foreground = #BB333F
+
+; focused = Active workspace on focused monitor
+label-focused = %icon%
+label-focused-background = #FFF
+label-focused-underline = #bb333f
+label-focused-padding = 2
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %icon%
+label-unfocused-padding = 2
+
+; visible = Active workspace on unfocused monitor
+label-visible = %icon%
+label-visible-background = #FFF
+label-visible-underline = #bb333f
+label-visible-padding = 2
+
+; urgent = Workspace with urgency hint set
+label-urgent = %icon%
+label-urgent-background = #FFF
+label-urgent-padding = 2
+
+; Separator in between workspaces
+; label-separator = |
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;VII
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-default = 0
+
+[module/mpd]
+type = internal/mpd
+format-online = <toggle>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+label-song = %title%
+
+[module/song]
+type = internal/mpd
+format-online = <label-song>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 22
+label-song-ellipsis = true
+label-song = "%title%"
+
+[module/artist]
+type = internal/mpd
+format-online = <label-song>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+label-song = "%artist%"
+
+[module/title]
+type = internal/mpd
+format-online = <label-song>  <label-time>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 35
+label-song-ellipsis = true
+label-song = "%title%"
+label-time-foreground = #bb333f
+
+[module/album]
+type = internal/mpd
+format-online = <label-song>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-ellipsis = true
+label-song = "%album%   (%date%)"
+
+[module/xbacklight]
+type = internal/xbacklight
+
+format = <label> <bar>
+label = BL
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #fff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format = <bar-load> <label>
+format-prefix = "CPU   "
+format-prefix-foreground = #494949
+label = %percentage%%
+
+bar-load-indicator = "|"
+bar-load-width = 13
+bar-load-foreground-0 = #1793D1
+bar-load-foreground-1 = #557755
+bar-load-foreground-2 = #f5a70a
+bar-load-foreground-3 = #ff5555
+bar-load-fill = "|"
+bar-load-empty = "|"
+bar-load-empty-foreground = #444444
+
+[module/memory]
+type = internal/memory
+interval = 2
+format = <bar-used> <label>
+format-prefix = "RAM  "
+format-prefix-foreground = #494949
+label = %percentage_used%%
+
+bar-used-indicator = "|"
+bar-used-indicator-foreground =#282bd2
+bar-used-width = 13
+bar-used-foreground-0 = #282bd2
+bar-used-foreground-1 = #282bd2
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-fill = "|"
+bar-used-empty = "|"
+bar-used-empty-foreground = #444444
+
+[module/wlan]
+type = internal/network
+interface = wlp1s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #9f78e1
+label-connected = %essid%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/eth]
+type = internal/network
+interface = enp2s0
+interval = 3.0
+
+format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/date]
+type = internal/date
+interval = 5
+
+date =
+date-alt = " %Y-%m-%d"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #0a6cf5
+
+label = %date% %time%
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL %percentage%%
+label-volume-foreground = ${root.foreground}
+
+label-muted = 🔇 muted
+label-muted-foreground = #666
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = #ffb52a
+
+format-discharging = <animation-discharging> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.secondary}
+label-close =  cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+; vim:ft=dosini
