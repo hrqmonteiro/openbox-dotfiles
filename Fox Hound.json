@@ -1,0 +1,22 @@
+{
+    "name": "Fox Hound",
+    "is_dark": true,
+    "colors": {
+        "accent-color": "#E7AE1D",
+        "primary-color": "#E7AE1D",
+        "warning-color": "#FF1744",
+
+        "sidebar-color": "#050017",
+        "roomlist-background-color": "#050017",
+        "roomlist-text-color": "#E7AE1D",
+        "roomlist-text-secondary-color": "#E5FFDE",
+        "roomlist-highlights-color": "#050017",
+        "roomlist-separator-color": "#050017",
+
+        "timeline-background-color": "#050017",
+        "timeline-text-color": "#E5FFDE",
+        "timeline-text-secondary-color": "#777777",
+        "timeline-highlights-color": "#FF1744",
+        "reaction-row-button-selected-bg-color": "#050017"
+    }
+}
